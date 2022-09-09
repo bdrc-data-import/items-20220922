@@ -1,0 +1,22 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:ITW1TLMTGA001284_001 {
+    bdr:ITW1TLMTGA001284_001
+        a                   :Item ;
+        :itemCopies         "0" ;
+        :itemException      "འདི་ག་དཔེ་མཛོད་དུ་ཡོད་པའི་མཁྱེན་བརྩེ་དབང་པོའི་གསུང་འབུམ་ལས་མ་ཚང་བའི་གསུང་རབ་པོད་ ཀ་ དང་ ཞ་ གཉིས་ཡིན། པོད་ ཅ་ པའི་ནང་ཤོག་ཨང་ 67-199 ཐེག་པའི་རྣམ་དབྱེ་གསལ་བར་བྱེད་པའི་གཏམ་ལེགས་བཤད་ངོ་མཚར་ཆུ་གཏེར། དང་ཤོག་ཨང་ 199-206 རྗེ་བཙུན་འཇམ་དབྱངས་བསྟོད་པ་དཔལ་ཡེ་ཤེས་ཡོན་ཏན་བཟང་པོ་ཞེས་བྱ་བའི་རྣམ་བཤད་ཉུང་ངུའི་ངག པོད་ ན་ པའི་ཤོག་ཨང་ 339-344 དམ་གྲིབ་ཉེས་པ་ཀུན་སེལ་སྒོ་ནས་བཀྲུ་བྱབས་སྲུང་གསུམ་བྱ་ཚུལ་མདོར་བསྡུས། པོད་ བ་ པའི་ཤོག་ཨང་ 575-576 བླ་མ་དྲག་པོ་རྟ་ཁྱུང་འབར་བའི་དབང་བསྐུར་གྲངས་གསོག པོད་ ཡ་ པའི་ཀློང་སྙིང་འཕོ་བའི་མཚམས་སྦྱོར། བཅས་མ་ཚང་བ་ཡིན།"@bo ;
+        :itemForInstance    bdr:MW1TLMTGA001284 ;
+        :itemLibrary        bdr:G1TLMTGA000001 ;
+        :itemShelf          "ཅ|༢|||001981" .
+}
