@@ -1,0 +1,35 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IT1FPL4172 {
+    bda:IT1FPL4172  a       adm:AdminData ;
+        adm:adminAbout      bdr:IT1FPL4172 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "d7/IT1FPL4172.trig" ;
+        adm:gitRepo         bda:GR0003 ;
+        adm:graphId         bdg:IT1FPL4172 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IDC2D5D4A450F1E210
+        a                   bf:AccessionNumber ;
+        rdf:value           "4172" .
+    
+    bdr:IDCB03496B6E431486
+        a                   bf:ShelfMark ;
+        rdf:value           "2D" .
+    
+    bdr:IT1FPL4172  a       bf:Item ;
+        bf:heldBy           bdr:G1TLMFPL000001 ;
+        bf:identifiedBy     bdr:IDC2D5D4A450F1E210 , bdr:IDCB03496B6E431486 ;
+        bf:itemOf           bdr:MW1FPL4172 .
+}

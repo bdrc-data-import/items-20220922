@@ -1,0 +1,37 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IT1TLMTGA003317N003 {
+    bda:IT1TLMTGA003317N003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:IT1TLMTGA003317N003 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "ab/IT1TLMTGA003317N003.trig" ;
+        adm:gitRepo         bda:GR0003 ;
+        adm:graphId         bdg:IT1TLMTGA003317N003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ID6723CAD802CD4A2D
+        a                   bf:ShelfMark ;
+        rdf:value           "ཇ|ཅ|༢" .
+    
+    bdr:IDFFBE151029D64609
+        a                   bf:AccessionNumber ;
+        rdf:value           "004639" .
+    
+    bdr:IT1TLMTGA003317N003
+        a                   bf:Item ;
+        bf:heldBy           bdr:G1TLMTGA000001 ;
+        bf:identifiedBy     bdr:ID6723CAD802CD4A2D , bdr:IDFFBE151029D64609 ;
+        bf:itemOf           bdr:MW1TLMTGA003317 .
+}

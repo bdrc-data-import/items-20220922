@@ -1,0 +1,35 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IT1FPL6837 {
+    bda:IT1FPL6837  a       adm:AdminData ;
+        adm:adminAbout      bdr:IT1FPL6837 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "a0/IT1FPL6837.trig" ;
+        adm:gitRepo         bda:GR0003 ;
+        adm:graphId         bdg:IT1FPL6837 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ID7791970A6E9D3392
+        a                   bf:AccessionNumber ;
+        rdf:value           "6837" .
+    
+    bdr:ID854C7C5F142340A3
+        a                   bf:ShelfMark ;
+        rdf:value           "2B" .
+    
+    bdr:IT1FPL6837  a       bf:Item ;
+        bf:heldBy           bdr:G1TLMFPL000001 ;
+        bf:identifiedBy     bdr:ID7791970A6E9D3392 , bdr:ID854C7C5F142340A3 ;
+        bf:itemOf           bdr:MW1FPL6837 .
+}
